@@ -401,6 +401,21 @@ nav {
   transition: border-color 0.2s, transform 0.2s;
   cursor: pointer;
 }
+
+.curso-thumb {
+  margin: -22px -20px 6px;
+  height: 158px;
+  overflow: hidden;
+  border-radius: 14px 14px 0 0;
+  background: var(--dark);
+}
+.curso-thumb img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+  transition: transform 0.35s ease;
+}
+.curso-card:hover .curso-thumb img { transform: scale(1.05); }
+
 .curso-preco {
   margin-top: auto;
   padding-top: 14px;
@@ -838,6 +853,7 @@ footer {
     <!-- TÉCNICOS -->
     <div class="cursos-panel active" id="panel-tecnicos">
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/tecnico-mecanica-industrial.jpg" alt="Técnico em Mecânica Industrial" loading="lazy"></div>
         <div class="curso-area">Técnico por Competência</div>
         <h4>Técnico em Mecânica Industrial</h4>
         <p>Para quem já atua na área e quer formalizar a especialização. Processo 100% documental, sem aulas.</p>
@@ -848,6 +864,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/tec-eletrotecnica.jpg" alt="Técnico em Eletrotécnica" loading="lazy"></div>
         <div class="curso-area">Técnico por Competência</div>
         <h4>Técnico em Eletrotécnica</h4>
         <p>Ideal para eletricistas e profissionais da área elétrica. Aproveitamento de experiência, sem provas ou aulas.</p>
@@ -858,6 +875,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/tec-eletromecanica.jpg" alt="Técnico em Eletromecânica" loading="lazy"></div>
         <div class="curso-area">Técnico por Competência</div>
         <h4>Técnico em Eletromecânica</h4>
         <p>Para profissionais de manutenção industrial. Diploma emitido com base na sua experiência comprovada.</p>
@@ -868,6 +886,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/tec-automacao-industrial.jpg" alt="Técnico em Automação Industrial" loading="lazy"></div>
         <div class="curso-area">Técnico por Competência</div>
         <h4>Técnico em Automação Industrial</h4>
         <p>Para técnicos de automação, PLCs e instrumentação. Sem provas — sua trajetória profissional fala por você.</p>
@@ -878,6 +897,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/tec-administracao.jpg" alt="Técnico em Administração" loading="lazy"></div>
         <div class="curso-area">Técnico por Competência</div>
         <h4>Técnico em Administração</h4>
         <p>Para quem atua em gestão, RH ou financeiro e quer o diploma sem precisar estudar do zero.</p>
@@ -888,6 +908,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/tec-telecomunicacoes.jpg" alt="Técnico em Telecomunicações" loading="lazy"></div>
         <div class="curso-area">Técnico por Competência</div>
         <h4>Técnico em Telecomunicações</h4>
         <p>Para técnicos de redes, fibra óptica e telecom. O diploma reconhece o que você já sabe fazer.</p>
@@ -898,6 +919,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/tec-logistica.jpg" alt="Técnico em Logística" loading="lazy"></div>
         <div class="curso-area">Técnico por Competência</div>
         <h4>Técnico em Logística</h4>
         <p>Para profissionais de supply chain, armazém e distribuição. Regularize sua situação de forma simples.</p>
@@ -918,6 +940,7 @@ footer {
     <!-- OFFSHORE -->
     <div class="cursos-panel" id="panel-offshore">
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/off-huet.jpg" alt="Combo Embarque — CBSP + T-HUET" loading="lazy"></div>
         <div class="curso-area">Offshore</div>
         <h4>Combo Embarque — CBSP + T-HUET</h4>
         <p>Pacote completo pra embarcar: CBSP + T-HUET, com a NR-37 de cortesia. Tudo que você precisa pra começar offshore, com economia.</p>
@@ -928,6 +951,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/off-cbsp.jpg" alt="CBSP — Curso Básico de Salvamento em Patrulhamento" loading="lazy"></div>
         <div class="curso-area">Offshore</div>
         <h4>CBSP — Curso Básico de Salvamento em Patrulhamento</h4>
         <p>Obrigatório para trabalhar em embarcações e plataformas. Certificação reconhecida pela ANP.</p>
@@ -938,6 +962,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/off-thuet.jpg" alt="T-HUET — Treinamento de Evacuação Subaquática" loading="lazy"></div>
         <div class="curso-area">Offshore</div>
         <h4>T-HUET — Treinamento de Evacuação Subaquática</h4>
         <p>Treinamento obrigatório para tripulantes de helicóptero offshore e operações marítimas.</p>
@@ -948,6 +973,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/off-caci.jpg" alt="Segurança em Plataformas" loading="lazy"></div>
         <div class="curso-area">Offshore</div>
         <h4>Segurança em Plataformas</h4>
         <p>Treinamentos específicos para o ambiente offshore: combate a incêndio, primeiros socorros e mais.</p>
@@ -962,6 +988,7 @@ footer {
     <!-- NRs -->
     <div class="cursos-panel" id="panel-nrs">
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/off-eletricista.jpg" alt="NR-10 — Segurança em Instalações Elétricas" loading="lazy"></div>
         <div class="curso-area">Norma Regulamentadora</div>
         <h4>NR-10 — Segurança em Instalações Elétricas</h4>
         <p>Obrigatório para eletricistas e técnicos que trabalham com alta e baixa tensão.</p>
@@ -972,6 +999,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/nr-altura.jpg" alt="NR-35 — Trabalho em Altura" loading="lazy"></div>
         <div class="curso-area">Norma Regulamentadora</div>
         <h4>NR-35 — Trabalho em Altura</h4>
         <p>Para profissionais que executam atividades acima de 2 metros do piso inferior.</p>
@@ -982,6 +1010,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/nr-confinado.jpg" alt="NR-33 — Espaços Confinados" loading="lazy"></div>
         <div class="curso-area">Norma Regulamentadora</div>
         <h4>NR-33 — Espaços Confinados</h4>
         <p>Habilitação para trabalho seguro em ambientes de acesso e saída limitados.</p>
@@ -992,6 +1021,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/nr-maquinas.jpg" alt="NR-12 — Segurança em Máquinas" loading="lazy"></div>
         <div class="curso-area">Norma Regulamentadora</div>
         <h4>NR-12 — Segurança em Máquinas</h4>
         <p>Para operadores e técnicos de manutenção que trabalham com máquinas e equipamentos.</p>
@@ -1002,6 +1032,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/nr-inflamaveis.jpg" alt="NR-20 — Inflamáveis e Combustíveis" loading="lazy"></div>
         <div class="curso-area">Norma Regulamentadora</div>
         <h4>NR-20 — Inflamáveis e Combustíveis</h4>
         <p>Obrigatório para trabalhadores de postos, refinarias e ambientes com risco de explosão.</p>
@@ -1012,6 +1043,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/nr-geral.jpg" alt="Outras NRs" loading="lazy"></div>
         <div class="curso-area">Norma Regulamentadora</div>
         <h4>Outras NRs</h4>
         <p>NR-06, NR-11, NR-13, NR-18, NR-23 e muito mais. Consulte o curso que você precisa.</p>
@@ -1026,6 +1058,7 @@ footer {
     <!-- EJA -->
     <div class="cursos-panel" id="panel-eja">
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/eja.jpg" alt="EJA — Ensino Fundamental" loading="lazy"></div>
         <div class="curso-area">EJA</div>
         <h4>EJA — Ensino Fundamental</h4>
         <p>Para quem não concluiu o ensino fundamental e quer retomar os estudos em ritmo próprio.</p>
@@ -1036,6 +1069,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/eja.jpg" alt="EJA — Ensino Médio" loading="lazy"></div>
         <div class="curso-area">EJA</div>
         <h4>EJA — Ensino Médio</h4>
         <p>Conclua o ensino médio sem precisar ir à escola, com diploma válido em todo o Brasil.</p>
@@ -1046,6 +1080,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/qual-empilhadeira.jpg" alt="Operador de Empilhadeira" loading="lazy"></div>
         <div class="curso-area">Qualificação Profissional</div>
         <h4>Operador de Empilhadeira</h4>
         <p>Habilitação profissional para condução de empilhadeiras em ambientes industriais e logísticos.</p>
@@ -1056,6 +1091,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/qual-caldeira.jpg" alt="Operador de Caldeira" loading="lazy"></div>
         <div class="curso-area">Qualificação Profissional</div>
         <h4>Operador de Caldeira</h4>
         <p>Formação para operar caldeiras industriais com segurança, conforme normas do MTE.</p>
@@ -1066,6 +1102,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/qual-soldagem.jpg" alt="Soldagem — Qualificação" loading="lazy"></div>
         <div class="curso-area">Qualificação Profissional</div>
         <h4>Soldagem — Qualificação</h4>
         <p>Certificação de qualificação para soldadores conforme AWS, ASME e NBR aplicáveis.</p>
@@ -1076,6 +1113,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/off-cpso.jpg" alt="Primeiros Socorros" loading="lazy"></div>
         <div class="curso-area">Qualificação Profissional</div>
         <h4>Primeiros Socorros</h4>
         <p>Qualificação básica e avançada em primeiros socorros para ambientes industriais e empresariais.</p>
@@ -1086,6 +1124,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/off-homem-area.jpg" alt="Homem de Área" loading="lazy"></div>
         <div class="curso-area">Qualificação Profissional</div>
         <h4>Homem de Área</h4>
         <p>Qualificação para atuação em áreas classificadas de plataformas e indústrias de óleo e gás.</p>
@@ -1096,6 +1135,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/off-automacao.jpg" alt="Plataformista" loading="lazy"></div>
         <div class="curso-area">Qualificação Profissional</div>
         <h4>Plataformista</h4>
         <p>Formação para trabalho em plataformas marítimas com segurança e conformidade operacional.</p>
@@ -1106,6 +1146,7 @@ footer {
         </div>
       </div>
       <div class="curso-card">
+        <div class="curso-thumb"><img src="https://api.aulla.online/storage/v1/object/public/curso-banners/00000000-0000-0000-0000-0000000000e1/vitrine/forma/qual-rigger.jpg" alt="Rigger — Movimentação de Cargas" loading="lazy"></div>
         <div class="curso-area">Qualificação Profissional</div>
         <h4>Rigger — Movimentação de Cargas</h4>
         <p>Qualificação para profissionais que operam e sinalizam movimentação de cargas com segurança.</p>
